@@ -1,0 +1,1418 @@
+[
+    {
+        "demographics": {
+            "name": "Ms. Brown",
+            "date_of_birth": "9/29/1982",
+            "age": "37",
+            "gender": "Female",
+            "address": {
+                "city": "Boston",
+                "state": "MA"
+            },
+            "insurance": "Medicare/Medicaid"
+        },
+        "encounter": {
+            "date": "March 13, 2020",
+            "time": "16:12-17:11",
+            "provider_id": "d76028b8-d23f-346e-abd0-65995aec66c8",
+            "facility_id": null,
+            "encounter_type": {
+                "code": "308335008",
+                "description": "Ambulatory/Urgent Care"
+            }
+        },
+        "conditions": [
+            {
+                "code": "J43.9",
+                "description": "Pulmonary emphysema"
+            },
+            {
+                "code": "I10",
+                "description": "Hypertension"
+            },
+            {
+                "code": "Z88.0",
+                "description": "Allergy to bee venom"
+            },
+            {
+                "code": "Z91.0",
+                "description": "Allergy to grass/tree pollen"
+            },
+            {
+                "code": "Z91.01",
+                "description": "Allergy to fish"
+            }
+        ],
+        "medications": [
+            {
+                "code": "997501",
+                "description": "Hydrochlorothiazide 12.5 MG daily"
+            },
+            {
+                "code": "895994",
+                "description": "Fluticasone/Salmeterol 250/50 mcg inhaler BID"
+            }
+        ],
+        "immunizations": [
+            {
+                "code": "pneumococcal polysaccharide vaccine  23 valent",
+                "description": "Influenza vaccine",
+                "date": "3/11/2020"
+            }
+        ],
+        "vitals": {
+            "current": {
+                "temperature": {
+                    "code": "2947-0",
+                    "value": 40.6,
+                    "unit": "C"
+                },
+                "heart_rate": {
+                    "code": "8462-4",
+                    "value": 179.0,
+                    "unit": "bpm"
+                },
+                "blood_pressure": {
+                    "systolic": {
+                        "code": "8480-6",
+                        "value": 106.0,
+                        "unit": "mmHg"
+                    },
+                    "diastolic": {
+                        "code": "8462-4",
+                        "value": 78.0,
+                        "unit": "mmHg"
+                    },
+                    "code": "8462-4"
+                },
+                "respiratory_rate": {
+                    "code": "92142-9",
+                    "value": 24.0,
+                    "unit": "breaths/min"
+                },
+                "oxygen_saturation": {
+                    "code": "2703-7",
+                    "value": 83.6,
+                    "unit": "%"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 59.9,
+                    "unit": "kg"
+                }
+            },
+            "baseline": {
+                "date": "3/11/2020",
+                "height": null,
+                "weight": {
+                    "code": "59557-9",
+                    "value": 59.9,
+                    "unit": "kg"
+                },
+                "bmi": null,
+                "bmi_percentile": null
+            }
+        },
+        "laboratory": {
+            "covid19": {
+                "code": "94500-6",
+                "description": "COVID-19 PCR",
+                "result": "POSITIVE"
+            },
+            "respiratory_panel": {
+                "influenza_a": {
+                    "code": "168280009",
+                    "result": "Negative"
+                },
+                "influenza_b": {
+                    "code": "168281000",
+                    "result": "Negative"
+                },
+                "rsv": {
+                    "code": "165985007",
+                    "result": "Negative"
+                },
+                "parainfluenza_1": {
+                    "code": "168274000",
+                    "result": "Negative"
+                },
+                "parainfluenza_2": {
+                    "code": "168275004",
+                    "result": "Negative"
+                },
+                "parainfluenza_3": {
+                    "code": "168276003",
+                    "result": "Negative"
+                },
+                "rhinovirus": {
+                    "code": "168283002",
+                    "result": "Negative"
+                },
+                "metapneumovirus": {
+                    "code": "168282003",
+                    "result": "Negative"
+                },
+                "adenovirus": {
+                    "code": "168276003",
+                    "result": "Negative"
+                }
+            }
+        },
+        "procedures": []
+    },
+    {
+        "demographics": {
+            "name": "Mr. Milo271 Feil794",
+            "date_of_birth": "12/12/1983",
+            "age": "36y/o",
+            "gender": "Male",
+            "address": {
+                "city": "Somerville",
+                "state": "Massachusetts"
+            },
+            "insurance": "Guardian"
+        },
+        "encounter": {
+            "date": "February 25, 2020",
+            "time": "15:39-16:31",
+            "provider_id": "046c4fac-2680-391a-ba36-eeaec6eed0c5",
+            "facility_id": "e002090d-4e92-300e-b41e-7d1f21dee4c6",
+            "encounter_type": {
+                "code": "185389009",
+                "description": "Ambulatory"
+            }
+        },
+        "conditions": [
+            {
+                "code": null,
+                "description": "Confirmed COVID-19 infection"
+            },
+            {
+                "code": null,
+                "description": "Acute hypoxemia"
+            },
+            {
+                "code": null,
+                "description": "Multiple associated symptoms including fever, myalgia, arthralgia, and ageusia"
+            }
+        ],
+        "medications": null,
+        "immunizations": null,
+        "vitals": {
+            "current": {
+                "temperature": {
+                    "code": "2947-0",
+                    "value": 39.9,
+                    "unit": "\u00b0C"
+                },
+                "heart_rate": {
+                    "code": "8462-4",
+                    "value": 82.1,
+                    "unit": "/min"
+                },
+                "blood_pressure": {
+                    "systolic": {
+                        "code": null,
+                        "value": 122.0,
+                        "unit": "mmHg"
+                    },
+                    "diastolic": {
+                        "code": null,
+                        "value": 80.0,
+                        "unit": "mmHg"
+                    },
+                    "code": "8462-4"
+                },
+                "respiratory_rate": {
+                    "code": "92142-9",
+                    "value": 31.5,
+                    "unit": "/min"
+                },
+                "oxygen_saturation": {
+                    "code": "2703-7",
+                    "value": 89.0,
+                    "unit": "%"
+                },
+                "weight": {
+                    "code": "2885-2",
+                    "value": 112.7,
+                    "unit": "kg"
+                }
+            },
+            "baseline": null
+        },
+        "laboratory": {
+            "covid19": {
+                "code": null,
+                "description": "COVID-19 Testing",
+                "result": "DETECTED"
+            },
+            "respiratory_panel": {
+                "influenza_a": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "influenza_b": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "rsv": null,
+                "parainfluenza_1": null,
+                "parainfluenza_2": null,
+                "parainfluenza_3": null,
+                "rhinovirus": null,
+                "metapneumovirus": null,
+                "adenovirus": null
+            }
+        },
+        "procedures": null
+    },
+    {
+        "demographics": {
+            "name": "Mrs. Karyn217 Metz686",
+            "date_of_birth": "7/31/1991",
+            "age": "28",
+            "gender": "Female",
+            "address": {
+                "city": "Medfield",
+                "state": "Massachusetts"
+            },
+            "insurance": "Guardian"
+        },
+        "encounter": {
+            "date": "2/29/2020",
+            "time": "04:48-05:44",
+            "provider_id": "bc4a66b7-a2ba-3ad3-af08-2975489d8495",
+            "facility_id": "3bd5eda0-16da-3ba5-8500-4dfd6ae118b8",
+            "encounter_type": {
+                "code": "185389009",
+                "description": "Ambulatory"
+            }
+        },
+        "conditions": [
+            {
+                "code": "TBI",
+                "description": "Traumatic Brain Injury"
+            },
+            {
+                "code": "Pregnancy",
+                "description": "First Trimester Pregnancy"
+            }
+        ],
+        "medications": null,
+        "immunizations": [
+            {
+                "code": "113",
+                "description": "Influenza Vaccine",
+                "date": "10/9/2019"
+            }
+        ],
+        "vitals": {
+            "current": {
+                "temperature": {
+                    "code": "2947-0",
+                    "value": 41.5,
+                    "unit": "\u00b0C"
+                },
+                "heart_rate": {
+                    "code": "8462-4",
+                    "value": 84.4,
+                    "unit": "/min"
+                },
+                "blood_pressure": {
+                    "systolic": {
+                        "code": "SBP",
+                        "value": 108.0,
+                        "unit": "mmHg"
+                    },
+                    "diastolic": {
+                        "code": "DBP",
+                        "value": 84.0,
+                        "unit": "mmHg"
+                    },
+                    "code": "8462-4"
+                },
+                "respiratory_rate": {
+                    "code": "92142-9",
+                    "value": 27.3,
+                    "unit": "/min"
+                },
+                "oxygen_saturation": {
+                    "code": "2703-7",
+                    "value": 86.7,
+                    "unit": "%"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 74.0,
+                    "unit": "kg"
+                }
+            },
+            "baseline": {
+                "date": "10/9/2019",
+                "height": {
+                    "code": "38483-4",
+                    "value": 167.3,
+                    "unit": "cm"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 74.0,
+                    "unit": "kg"
+                },
+                "bmi": {
+                    "code": "38483-4",
+                    "value": 26.4,
+                    "unit": "kg/m\u00b2"
+                },
+                "bmi_percentile": null
+            }
+        },
+        "laboratory": {
+            "covid19": {
+                "code": "COVID19",
+                "description": "COVID-19 Test",
+                "result": "Positive"
+            },
+            "respiratory_panel": {
+                "influenza_a": {
+                    "code": "FluA",
+                    "result": "Negative"
+                },
+                "influenza_b": {
+                    "code": "FluB",
+                    "result": "Negative"
+                },
+                "rsv": null,
+                "parainfluenza_1": null,
+                "parainfluenza_2": null,
+                "parainfluenza_3": null,
+                "rhinovirus": null,
+                "metapneumovirus": null,
+                "adenovirus": null
+            }
+        },
+        "procedures": [
+            {
+                "code": "COVID19 PCR",
+                "description": "COVID-19 PCR Test",
+                "date": "2/29/2020",
+                "reasonCode": null,
+                "reasonDescription": null
+            }
+        ]
+    },
+    {
+        "demographics": {
+            "name": "Jacinto Kris",
+            "date_of_birth": "8/24/2017",
+            "age": "2y/o",
+            "gender": "Male",
+            "address": {
+                "city": "Springfield",
+                "state": "MA"
+            },
+            "insurance": "Self-Pay"
+        },
+        "encounter": {
+            "date": "March 2, 2020",
+            "time": "01:02-01:58",
+            "provider_id": "9c875a09-93e0-39aa-9260-ad264bbdd3fe",
+            "facility_id": "fd328395-ab1d-35c6-a2d0-d05a9a79cf11",
+            "encounter_type": {
+                "code": "50849002",
+                "description": "Urgent Care"
+            }
+        },
+        "conditions": [
+            {
+                "code": null,
+                "description": "Confirmed COVID-19 infection with severe symptoms"
+            },
+            {
+                "code": null,
+                "description": "Acute hypoxemia"
+            },
+            {
+                "code": null,
+                "description": "High fever"
+            },
+            {
+                "code": null,
+                "description": "Tachycardia and tachypnea"
+            }
+        ],
+        "medications": null,
+        "immunizations": [
+            {
+                "code": "pneumococcal polysaccharide vaccine  23 valent",
+                "description": "Influenza vaccine",
+                "date": "8/1/2019"
+            },
+            {
+                "code": "Hep B  adolescent or pediatric",
+                "description": "Hepatitis A vaccine",
+                "date": "1/30/2020"
+            }
+        ],
+        "vitals": {
+            "current": {
+                "temperature": {
+                    "code": "2947-0",
+                    "value": 39.7,
+                    "unit": "\u00b0C"
+                },
+                "heart_rate": {
+                    "code": "8462-4",
+                    "value": 164.0,
+                    "unit": "/min"
+                },
+                "blood_pressure": {
+                    "systolic": {
+                        "code": null,
+                        "value": 130.0,
+                        "unit": "mmHg"
+                    },
+                    "diastolic": {
+                        "code": null,
+                        "value": 75.0,
+                        "unit": "mmHg"
+                    },
+                    "code": "8462-4"
+                },
+                "respiratory_rate": {
+                    "code": "92142-9",
+                    "value": 33.0,
+                    "unit": "/min"
+                },
+                "oxygen_saturation": {
+                    "code": "2703-7",
+                    "value": 86.2,
+                    "unit": "%"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 13.5,
+                    "unit": "kg"
+                }
+            },
+            "baseline": {
+                "date": "1/30/2020",
+                "height": {
+                    "code": "38483-4",
+                    "value": 86.3,
+                    "unit": "cm"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 13.4,
+                    "unit": "kg"
+                },
+                "bmi": {
+                    "code": "38483-4",
+                    "value": 18.0,
+                    "unit": "kg/m2"
+                },
+                "bmi_percentile": null
+            }
+        },
+        "laboratory": {
+            "covid19": {
+                "code": null,
+                "description": "COVID-19 PCR",
+                "result": "POSITIVE"
+            },
+            "respiratory_panel": {
+                "influenza_a": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "influenza_b": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "rsv": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "parainfluenza_1": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "parainfluenza_2": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "parainfluenza_3": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "rhinovirus": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "metapneumovirus": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "adenovirus": {
+                    "code": null,
+                    "result": "Negative"
+                }
+            }
+        },
+        "procedures": []
+    },
+    {
+        "demographics": {
+            "name": "Jayson Fadel",
+            "date_of_birth": "6/30/1992",
+            "age": "27",
+            "gender": "Male",
+            "address": {
+                "city": "Chicopee",
+                "state": "MA"
+            },
+            "insurance": "Guardian"
+        },
+        "encounter": {
+            "date": "March 11, 2020",
+            "time": "10:51-11:42",
+            "provider_id": "f59948a6-b07a-3248-9661-60f5924b644b",
+            "facility_id": "5d4b9df1-93ae-3bc9-b680-03249990e558",
+            "encounter_type": {
+                "code": "50849002",
+                "description": "Urgent Care"
+            }
+        },
+        "conditions": [
+            {
+                "code": "Hypertensive urgency",
+                "description": "Hypertensive urgency (BP 187/96)"
+            },
+            {
+                "code": "COVID19",
+                "description": "Confirmed COVID-19 infection with severe symptoms"
+            },
+            {
+                "code": "Acute hypoxemia",
+                "description": "Acute hypoxemia"
+            },
+            {
+                "code": "Severe fever",
+                "description": "Severe fever"
+            },
+            {
+                "code": "Tachycardia",
+                "description": "Significant tachycardia"
+            },
+            {
+                "code": "Gastrointestinal symptoms",
+                "description": "Gastrointestinal symptoms with risk of dehydration"
+            }
+        ],
+        "medications": [
+            {
+                "code": "727762",
+                "description": "amLODIPine/Hydrochlorothiazide/Olmesartan (5/12.5/20 mg) daily"
+            }
+        ],
+        "immunizations": [
+            {
+                "code": "pneumococcal polysaccharide vaccine  23 valent",
+                "description": "Influenza vaccine",
+                "date": "10/15/2019"
+            }
+        ],
+        "vitals": {
+            "current": {
+                "temperature": {
+                    "code": "2947-0",
+                    "value": 41.1,
+                    "unit": "\u00b0C"
+                },
+                "heart_rate": {
+                    "code": "8462-4",
+                    "value": 187.0,
+                    "unit": "/min"
+                },
+                "blood_pressure": {
+                    "systolic": {
+                        "code": "Systolic BP",
+                        "value": 187.0,
+                        "unit": "mmHg"
+                    },
+                    "diastolic": {
+                        "code": "Diastolic BP",
+                        "value": 96.0,
+                        "unit": "mmHg"
+                    },
+                    "code": "8462-4"
+                },
+                "respiratory_rate": {
+                    "code": "92142-9",
+                    "value": 33.0,
+                    "unit": "/min"
+                },
+                "oxygen_saturation": {
+                    "code": "2703-7",
+                    "value": 88.7,
+                    "unit": "%"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 68.2,
+                    "unit": "kg"
+                }
+            },
+            "baseline": {
+                "date": "10/15/2019",
+                "height": {
+                    "code": "38483-4",
+                    "value": 165.7,
+                    "unit": "cm"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 68.2,
+                    "unit": "kg"
+                },
+                "bmi": {
+                    "code": "38483-4",
+                    "value": 24.8,
+                    "unit": "kg/m2"
+                },
+                "bmi_percentile": null
+            }
+        },
+        "laboratory": {
+            "covid19": {
+                "code": "COVID19 PCR",
+                "description": "COVID-19 PCR",
+                "result": "POSITIVE"
+            },
+            "respiratory_panel": {
+                "influenza_a": {
+                    "code": "Influenza A",
+                    "result": "Negative"
+                },
+                "influenza_b": {
+                    "code": "Influenza B",
+                    "result": "Negative"
+                },
+                "rsv": {
+                    "code": "RSV",
+                    "result": "Negative"
+                },
+                "parainfluenza_1": {
+                    "code": "Parainfluenza 1",
+                    "result": "Negative"
+                },
+                "parainfluenza_2": {
+                    "code": "Parainfluenza 2",
+                    "result": "Negative"
+                },
+                "parainfluenza_3": {
+                    "code": "Parainfluenza 3",
+                    "result": "Negative"
+                },
+                "rhinovirus": {
+                    "code": "Rhinovirus",
+                    "result": "Negative"
+                },
+                "metapneumovirus": {
+                    "code": "Human metapneumovirus",
+                    "result": "Negative"
+                },
+                "adenovirus": {
+                    "code": "Adenovirus",
+                    "result": "Negative"
+                }
+            }
+        },
+        "procedures": null
+    },
+    {
+        "demographics": {
+            "name": "Mr. Jos\u00e9 Eduardo181 G\u00f3mez206",
+            "date_of_birth": "6/22/1989",
+            "age": "30",
+            "gender": "Male",
+            "address": {
+                "city": "Chicopee",
+                "state": "Massachusetts"
+            },
+            "insurance": "Guardian"
+        },
+        "encounter": {
+            "date": "March 7, 2020",
+            "time": "12:56-14:13",
+            "provider_id": "f59948a6-b07a-3248-9661-60f5924b644b",
+            "facility_id": "5d4b9df1-93ae-3bc9-b680-03249990e558",
+            "encounter_type": {
+                "code": "185389009",
+                "description": "Ambulatory"
+            }
+        },
+        "conditions": [
+            {
+                "code": "Obesity",
+                "description": "Obesity (diagnosed 2007)"
+            },
+            {
+                "code": "Prediabetes",
+                "description": "Prediabetes (diagnosed 2014)"
+            }
+        ],
+        "medications": [
+            {
+                "code": "1534809",
+                "description": "Completed course of Meperidine Hydrochloride 50 MG (9/13/2019 - 10/7/2019)"
+            },
+            {
+                "code": "1049221",
+                "description": "Completed course of Acetaminophen 325 MG (9/13/2019 - 12/12/2019)"
+            }
+        ],
+        "immunizations": [],
+        "vitals": {
+            "current": {
+                "temperature": {
+                    "code": "2947-0",
+                    "value": 42.0,
+                    "unit": "\u00b0C"
+                },
+                "heart_rate": {
+                    "code": "8462-4",
+                    "value": 87.9,
+                    "unit": "/min"
+                },
+                "blood_pressure": {
+                    "systolic": {
+                        "code": "Systolic Blood Pressure",
+                        "value": 113.0,
+                        "unit": "mmHg"
+                    },
+                    "diastolic": {
+                        "code": "Diastolic Blood Pressure",
+                        "value": 83.0,
+                        "unit": "mmHg"
+                    },
+                    "code": "8462-4"
+                },
+                "respiratory_rate": {
+                    "code": "92142-9",
+                    "value": 20.9,
+                    "unit": "/min"
+                },
+                "oxygen_saturation": {
+                    "code": "2703-7",
+                    "value": 83.5,
+                    "unit": "%"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 94.7,
+                    "unit": "kg"
+                }
+            },
+            "baseline": null
+        },
+        "laboratory": {
+            "covid19": {
+                "code": "COVID-19 PCR",
+                "description": "COVID-19 PCR",
+                "result": "POSITIVE"
+            },
+            "respiratory_panel": {
+                "influenza_a": {
+                    "code": "Influenza A",
+                    "result": "Negative"
+                },
+                "influenza_b": {
+                    "code": "Influenza B",
+                    "result": "Negative"
+                },
+                "rsv": null,
+                "parainfluenza_1": null,
+                "parainfluenza_2": null,
+                "parainfluenza_3": null,
+                "rhinovirus": null,
+                "metapneumovirus": null,
+                "adenovirus": null
+            }
+        },
+        "procedures": null
+    },
+    {
+        "demographics": {
+            "name": "Gregorio Auer",
+            "date_of_birth": "11/15/1996",
+            "age": "23",
+            "gender": "Male",
+            "address": {
+                "city": "Boston",
+                "state": "MA"
+            },
+            "insurance": "Medicare/Medicaid"
+        },
+        "encounter": {
+            "date": "March 3, 2020",
+            "time": "00:58-02:19",
+            "provider_id": "6ba172e8-ae6d-3c6c-9f49-38096f9d1e1e",
+            "facility_id": "d78e84ec-30aa-3bba-a33a-f29a3a454662",
+            "encounter_type": {
+                "code": "308335008",
+                "description": "Ambulatory/Urgent Care"
+            }
+        },
+        "conditions": [
+            {
+                "code": "U07.1",
+                "description": "COVID-19 infection with severe symptoms"
+            },
+            {
+                "code": "R09.02",
+                "description": "Severe hypoxemia"
+            },
+            {
+                "code": "R00.1",
+                "description": "Bradycardia"
+            },
+            {
+                "code": "J06.9",
+                "description": "Upper respiratory symptoms"
+            }
+        ],
+        "medications": null,
+        "immunizations": null,
+        "vitals": {
+            "current": {
+                "temperature": {
+                    "code": "2947-0",
+                    "value": 38.8,
+                    "unit": "\u00b0C"
+                },
+                "heart_rate": {
+                    "code": "8462-4",
+                    "value": 51.0,
+                    "unit": "/min"
+                },
+                "blood_pressure": {
+                    "systolic": {
+                        "code": "mm[Hg]",
+                        "value": 116.0,
+                        "unit": "mmHg"
+                    },
+                    "diastolic": {
+                        "code": "mm[Hg]",
+                        "value": 80.0,
+                        "unit": "mmHg"
+                    },
+                    "code": "8462-4"
+                },
+                "respiratory_rate": {
+                    "code": "92142-9",
+                    "value": 19.0,
+                    "unit": "/min"
+                },
+                "oxygen_saturation": {
+                    "code": "2703-7",
+                    "value": 77.6,
+                    "unit": "%"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 91.2,
+                    "unit": "kg"
+                }
+            },
+            "baseline": null
+        },
+        "laboratory": {
+            "covid19": {
+                "code": "94531-1",
+                "description": "COVID-19 PCR",
+                "result": "POSITIVE"
+            },
+            "respiratory_panel": {
+                "influenza_a": {
+                    "code": "94558-4",
+                    "result": "Negative"
+                },
+                "influenza_b": {
+                    "code": "94559-2",
+                    "result": "Negative"
+                },
+                "rsv": null,
+                "parainfluenza_1": null,
+                "parainfluenza_2": null,
+                "parainfluenza_3": null,
+                "rhinovirus": null,
+                "metapneumovirus": null,
+                "adenovirus": null
+            }
+        },
+        "procedures": null
+    },
+    {
+        "demographics": {
+            "name": "Jeffrey Greenfelder",
+            "date_of_birth": "1/16/2005",
+            "age": null,
+            "gender": "Male",
+            "address": {
+                "city": "Springfield",
+                "state": "Massachusetts"
+            },
+            "insurance": "Guardian"
+        },
+        "encounter": {
+            "date": "March 2, 2020",
+            "time": "15:45-16:30",
+            "provider_id": "e2c226c2-3e1e-3d0b-b997-ce9544c10528",
+            "facility_id": "5103c940-0c08-392f-95cd-446e0cea042a",
+            "encounter_type": {
+                "code": "185317003",
+                "description": "Ambulatory Encounter"
+            }
+        },
+        "conditions": [
+            {
+                "code": null,
+                "description": "Obesity (diagnosed 2017)"
+            }
+        ],
+        "medications": null,
+        "immunizations": [
+            {
+                "code": "pneumococcal polysaccharide vaccine  23 valent",
+                "description": "Influenza vaccine",
+                "date": "2/23/2020"
+            }
+        ],
+        "vitals": {
+            "current": {
+                "temperature": {
+                    "code": "2947-0",
+                    "value": 39.3,
+                    "unit": "\u00b0C"
+                },
+                "heart_rate": {
+                    "code": "8462-4",
+                    "value": 131.1,
+                    "unit": "/min"
+                },
+                "blood_pressure": {
+                    "systolic": {
+                        "code": null,
+                        "value": 120.0,
+                        "unit": "mmHg"
+                    },
+                    "diastolic": {
+                        "code": null,
+                        "value": 73.0,
+                        "unit": "mmHg"
+                    },
+                    "code": "8462-4"
+                },
+                "respiratory_rate": {
+                    "code": "92142-9",
+                    "value": 27.6,
+                    "unit": "/min"
+                },
+                "oxygen_saturation": {
+                    "code": "2703-7",
+                    "value": 75.8,
+                    "unit": "%"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 81.2,
+                    "unit": "kg"
+                }
+            },
+            "baseline": {
+                "date": "2/23/2020",
+                "height": {
+                    "code": "38483-4",
+                    "value": 155.0,
+                    "unit": "cm"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 81.2,
+                    "unit": "kg"
+                },
+                "bmi": {
+                    "code": "38483-4",
+                    "value": 33.8,
+                    "unit": "kg/m\u00b2"
+                },
+                "bmi_percentile": null
+            }
+        },
+        "laboratory": {
+            "covid19": {
+                "code": null,
+                "description": "SARS-CoV-2",
+                "result": "Not detected"
+            },
+            "respiratory_panel": {
+                "influenza_a": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "influenza_b": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "rsv": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "parainfluenza_1": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "parainfluenza_2": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "parainfluenza_3": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "rhinovirus": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "metapneumovirus": {
+                    "code": null,
+                    "result": "Negative"
+                },
+                "adenovirus": {
+                    "code": null,
+                    "result": "Negative"
+                }
+            }
+        },
+        "procedures": []
+    },
+    {
+        "demographics": {
+            "name": "Jimmie Harris",
+            "date_of_birth": "1/9/2004",
+            "age": "16",
+            "gender": "Female",
+            "address": {
+                "city": "Pembroke",
+                "state": "MA"
+            },
+            "insurance": "Medicare/Medicaid"
+        },
+        "encounter": {
+            "date": "3/2/2020",
+            "time": "04:15-05:15",
+            "provider_id": "8be741d6-44d0-3412-88dd-4987e1559f0b",
+            "facility_id": "b1ddf812-1fdd-3adf-b1d5-32cc8bd07ebb",
+            "encounter_type": {
+                "code": "50849002",
+                "description": "Urgent Care"
+            }
+        },
+        "conditions": [
+            {
+                "code": "confirmed_covid19",
+                "description": "Confirmed COVID-19 infection with severe symptoms"
+            },
+            {
+                "code": "acute_hypoxemia",
+                "description": "Acute hypoxemia requiring intervention"
+            },
+            {
+                "code": "high_grade_fever",
+                "description": "High-grade fever"
+            },
+            {
+                "code": "gi_symptoms",
+                "description": "GI symptoms with risk of dehydration"
+            },
+            {
+                "code": "otherwise_healthy",
+                "description": "Otherwise healthy adolescent"
+            }
+        ],
+        "medications": [
+            {
+                "code": "833036",
+                "description": "Jolivette (oral contraceptive)"
+            }
+        ],
+        "immunizations": [
+            {
+                "code": "113",
+                "description": "Influenza vaccine",
+                "date": "2/21/2020"
+            },
+            {
+                "code": "113",
+                "description": "Meningococcal vaccine",
+                "date": "2/21/2020"
+            }
+        ],
+        "vitals": {
+            "current": {
+                "temperature": {
+                    "code": "2947-0",
+                    "value": 40.7,
+                    "unit": "\u00b0C"
+                },
+                "heart_rate": {
+                    "code": "8462-4",
+                    "value": 98.0,
+                    "unit": "/min"
+                },
+                "blood_pressure": {
+                    "systolic": {
+                        "code": "systolic_bp",
+                        "value": 120.0,
+                        "unit": "mmHg"
+                    },
+                    "diastolic": {
+                        "code": "diastolic_bp",
+                        "value": 89.0,
+                        "unit": "mmHg"
+                    },
+                    "code": "8462-4"
+                },
+                "respiratory_rate": {
+                    "code": "92142-9",
+                    "value": 22.0,
+                    "unit": "/min"
+                },
+                "oxygen_saturation": {
+                    "code": "2703-7",
+                    "value": 78.2,
+                    "unit": "%"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 45.3,
+                    "unit": "kg"
+                }
+            },
+            "baseline": {
+                "date": "2/21/2020",
+                "height": {
+                    "code": "38483-4",
+                    "value": 149.3,
+                    "unit": "cm"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 45.3,
+                    "unit": "kg"
+                },
+                "bmi": {
+                    "code": "38483-4",
+                    "value": 20.3,
+                    "unit": "kg/m2"
+                },
+                "bmi_percentile": {
+                    "code": "71970-8",
+                    "value": 47.6,
+                    "unit": "%"
+                }
+            }
+        },
+        "laboratory": {
+            "covid19": {
+                "code": "covid19_pcr",
+                "description": "COVID-19 PCR",
+                "result": "POSITIVE"
+            },
+            "respiratory_panel": {
+                "influenza_a": {
+                    "code": "influenza_a",
+                    "result": "Negative"
+                },
+                "influenza_b": {
+                    "code": "influenza_b",
+                    "result": "Negative"
+                },
+                "rsv": {
+                    "code": "rsv",
+                    "result": "Negative"
+                },
+                "parainfluenza_1": {
+                    "code": "parainfluenza_1",
+                    "result": "Negative"
+                },
+                "parainfluenza_2": {
+                    "code": "parainfluenza_2",
+                    "result": "Negative"
+                },
+                "parainfluenza_3": {
+                    "code": "parainfluenza_3",
+                    "result": "Negative"
+                },
+                "rhinovirus": {
+                    "code": "rhinovirus",
+                    "result": "Negative"
+                },
+                "metapneumovirus": {
+                    "code": "metapneumovirus",
+                    "result": "Negative"
+                },
+                "adenovirus": {
+                    "code": "adenovirus",
+                    "result": "Negative"
+                }
+            }
+        },
+        "procedures": null
+    },
+    {
+        "demographics": {
+            "name": "Mrs. Leann224 Deckow585",
+            "date_of_birth": "7/5/1989",
+            "age": "30",
+            "gender": "Female",
+            "address": {
+                "city": "Needham",
+                "state": "Massachusetts"
+            },
+            "insurance": "Self"
+        },
+        "encounter": {
+            "date": "March 8, 2020",
+            "time": "21:03-22:06",
+            "provider_id": "6b47028d-5118-3ace-91cc-a37789612e24",
+            "facility_id": "3d10019f-c88e-3de5-9916-6107b9c0263d",
+            "encounter_type": {
+                "code": "185389009",
+                "description": "Ambulatory"
+            }
+        },
+        "conditions": [
+            {
+                "code": "COVID-19",
+                "description": "Confirmed COVID-19 infection with severe symptoms"
+            },
+            {
+                "code": "Early Pregnancy",
+                "description": "First trimester"
+            },
+            {
+                "code": "Acute Hypoxemia",
+                "description": "Acute hypoxemia requiring intervention"
+            },
+            {
+                "code": "Tachycardia",
+                "description": "Significant tachycardia"
+            },
+            {
+                "code": "High-grade Fever",
+                "description": "High-grade fever requiring management"
+            }
+        ],
+        "medications": [
+            {
+                "code": "895994",
+                "description": "Respiratory support"
+            }
+        ],
+        "immunizations": [],
+        "vitals": {
+            "current": {
+                "temperature": {
+                    "code": "2947-0",
+                    "value": 40.1,
+                    "unit": "\u00b0C"
+                },
+                "heart_rate": {
+                    "code": "8462-4",
+                    "value": 151.0,
+                    "unit": "/min"
+                },
+                "blood_pressure": {
+                    "systolic": {
+                        "code": "Systolic Blood Pressure",
+                        "value": 104.0,
+                        "unit": "mmHg"
+                    },
+                    "diastolic": {
+                        "code": "Diastolic Blood Pressure",
+                        "value": 84.0,
+                        "unit": "mmHg"
+                    },
+                    "code": "8462-4"
+                },
+                "respiratory_rate": {
+                    "code": "92142-9",
+                    "value": 12.3,
+                    "unit": "/min"
+                },
+                "oxygen_saturation": {
+                    "code": "2703-7",
+                    "value": 88.9,
+                    "unit": "%"
+                },
+                "weight": {
+                    "code": "59557-9",
+                    "value": 69.6,
+                    "unit": "kg"
+                }
+            },
+            "baseline": null
+        },
+        "laboratory": {
+            "covid19": {
+                "code": "COVID-19 PCR",
+                "description": "COVID-19 PCR Test",
+                "result": "POSITIVE"
+            },
+            "respiratory_panel": {
+                "influenza_a": {
+                    "code": "Influenza A",
+                    "result": "Negative"
+                },
+                "influenza_b": {
+                    "code": "Influenza B",
+                    "result": "Negative"
+                },
+                "rsv": null,
+                "parainfluenza_1": null,
+                "parainfluenza_2": null,
+                "parainfluenza_3": null,
+                "rhinovirus": null,
+                "metapneumovirus": null,
+                "adenovirus": null
+            }
+        },
+        "procedures": [
+            {
+                "code": "Complete prenatal panel",
+                "description": "Complete prenatal panel",
+                "date": "3/11/2020",
+                "reasonCode": null,
+                "reasonDescription": null
+            },
+            {
+                "code": "Ultrasound scan for fetal viability",
+                "description": "Ultrasound scan for fetal viability",
+                "date": "3/11/2020",
+                "reasonCode": null,
+                "reasonDescription": null
+            },
+            {
+                "code": "Standard pregnancy screening tests",
+                "description": "Standard pregnancy screening tests",
+                "date": "3/11/2020",
+                "reasonCode": null,
+                "reasonDescription": null
+            }
+        ]
+    }
+]
